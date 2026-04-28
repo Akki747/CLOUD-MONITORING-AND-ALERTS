@@ -11,66 +11,66 @@ DURATION: 8 WEEKS
 MENTOR: NEELA SANTHOSH
 
 Cloud Monitoring and Alerts Setup
+
+Cloud Monitoring and Alerts Setup
 Project Description
 
-I have implemented cloud monitoring and alerting for a cloud-based system using AWS CloudWatch. The main objective of this project is to monitor application and system performance in real time and set up alerts to notify when specific conditions are met.
+I have implemented a cloud monitoring and alerting system using AWS (Amazon Web Services) and MongoDB. The main objective of this project is to monitor application performance in real time, track important system metrics, and set up alerts for detecting issues early.
 
-Cloud monitoring helps in tracking metrics such as CPU usage, memory usage, request count, and system health. In this project, I configured monitoring dashboards and alerting mechanisms to better understand system behavior and performance in a cloud environment.
+In this project, AWS CloudWatch is used for monitoring system and application-level metrics, while MongoDB is used as a database to store application data. This combination helps in understanding how cloud monitoring works along with backend database integration.
 
 What I Have Done
-1. Set Up Cloud Monitoring
+1. Set Up AWS Cloud Monitoring
 
-I have configured AWS CloudWatch to monitor a cloud-based application. I enabled monitoring services to collect metrics such as CPU utilization, system performance, and resource usage. This helped me track the behavior of the system in real time.
+I have configured AWS CloudWatch to monitor system performance and application behavior. I enabled metric collection to track important parameters such as CPU usage, system activity, and service health.
 
-2. Configured Metrics
+This helped me understand how real-time monitoring works in cloud environments.
 
-I have selected important system metrics that need to be monitored. These include:
+2. Integrated MongoDB Database
 
-CPU utilization
-Memory usage (where applicable)
-System performance metrics
-Application response behavior
+I have used MongoDB as the backend database to store application data. The application data stored in MongoDB can be monitored indirectly through system performance metrics in AWS CloudWatch.
 
-These metrics were added to CloudWatch for continuous monitoring.
+This helped me understand how databases and cloud monitoring systems work together in real applications.
 
-3. Created CloudWatch Dashboard
+3. Created Monitoring Dashboard
 
-I have created a custom CloudWatch dashboard to visualize all the collected metrics in one place. The dashboard displays graphs and charts that help in understanding system performance easily.
+I have created a CloudWatch dashboard to visualize performance metrics. The dashboard displays graphical representation of system usage and helps in analyzing application behavior over time.
 
-This dashboard provides a clear view of how the system is performing over time.
+This made it easier to track system performance in a structured way.
 
-4. Set Up Alerts
+4. Configured Alerts
 
-I have configured CloudWatch alarms to send notifications when certain thresholds are reached. For example, if CPU usage increases beyond a specific limit, an alert is triggered.
+I have set up CloudWatch alarms to trigger notifications when certain thresholds are exceeded. For example, if CPU usage becomes high or system performance drops, an alert is generated.
 
-These alerts help in identifying system issues early and ensure proper system monitoring.
+This ensures proactive monitoring and early detection of system issues.
 
-5. Verified Monitoring System
+5. Verified System Performance
 
-I have tested the monitoring setup by checking the dashboard and verifying that metrics are being updated correctly. I also ensured that alerts are triggered based on configured conditions.
+I have tested the monitoring setup by checking real-time metrics and confirming that alerts are triggered correctly when conditions are met. I also verified that MongoDB operations reflect properly in system performance tracking.
 
 Deliverables
-CloudWatch monitoring successfully configured
+AWS CloudWatch monitoring configured
+MongoDB integrated as backend database
 Real-time metrics tracking enabled
-Custom dashboard created to visualize system performance
-Alerts configured for threshold-based notifications
-Monitoring system tested and verified
+CloudWatch dashboard created
+Alert system configured and tested
+Monitoring system verified successfully
 Learning Experience
 
 Through this project, I learned:
 
-How cloud monitoring works in real-time systems
-How to track system performance using AWS CloudWatch
-How dashboards help in visualizing metrics clearly
-How alert systems improve system reliability
-Importance of monitoring in cloud-based applications
+How cloud monitoring works using AWS CloudWatch
+How to track system performance in real time
+Basics of alert configuration in cloud systems
+How databases like MongoDB interact with cloud applications
+Importance of monitoring in maintaining system stability
 Real-World Importance
 
-Cloud monitoring is widely used in real applications to ensure system reliability and performance. Companies use monitoring tools like AWS CloudWatch to detect issues early, reduce downtime, and maintain system stability. Alerts help in proactive issue resolution before users are affected.
+Cloud monitoring is widely used in real-world applications to ensure system reliability and performance. Companies use tools like AWS CloudWatch to detect issues early, while databases like MongoDB handle dynamic data storage. Together, they help maintain scalable and efficient systems.
 
 Conclusion
 
-I have successfully set up cloud monitoring and alerting using AWS CloudWatch. I created a dashboard to visualize system metrics and configured alerts to monitor system health. This project helped me understand real-time monitoring in cloud computing and its importance in maintaining application performance.
+I have successfully implemented a cloud monitoring and alert system using AWS and MongoDB. I configured CloudWatch dashboards, set up alerts, and integrated MongoDB for application data handling. This project helped me understand real-time monitoring and database interaction in cloud computing environments.
 
 ##OUTPUT##
 
